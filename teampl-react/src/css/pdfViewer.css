@@ -1,0 +1,62 @@
+.pdf-div{
+    height: 600px;
+    margin: auto;
+}
+.pdf-page{
+    height: 500px;
+}
+
+.pdf-button{
+    width:30px;
+    background: none;
+    border: none;
+}
+
+.pdf-ind{
+    transform: translate(4px, -8px);
+    display: inline-block;
+}
+
+.pdf-navBarWrapper {
+    margin: auto;
+    width: 325px;
+   position: fixed;
+    white-space: nowrap;
+    display: inline-flex;
+    background: white;
+    border: black solid ;
+    border-radius: 25px;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.is-2{
+    display: inline-block;
+}
+
+.is-3{
+    display: inline-block;
+    width: 130px;
+}

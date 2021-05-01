@@ -1,0 +1,230 @@
+.p-toast{
+    width: 17rem;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-message-icon{
+    font-size: 1.4rem;
+}
+
+.pi{
+    font-size: 0.8rem;
+}
+
+.p-toast .p-toast-message .p-toast-icon-close{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.p-toast-detail{
+    margin: 0.2rem 0 0 0;
+}
+
+.p-toast-message-text{
+    font-size: 14px;
+}
+
+.p-overlaypanel .p-overlaypanel-content{
+    padding: 0;
+}
+
+.p-splitbutton-defaultbutton{
+    padding-right: 0px !important;
+}
+
+.p-card-footer {
+    margin-left: -11px
+}
+
+.p-overlaypanel .p-overlaypanel-close {
+    width: 1.5rem; height: 1.5rem;
+    top: -0.5rem; right: -0.5rem;
+}
+
+.p-card .p-card-title {
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+.p-card .p-card-subtitle{
+    font-size: 0.8rem;
+}
+
+.p-component, .p-component{
+    border-radius: 15px;
+}
+
+.premium-gift-img {
+    width: 197px;margin: auto;display: block;
+}
+
+.premium-login-img{
+    max-width: 220px;display: block;border-radius: 15px 15px 0 0;
+}
+
+.teampl-logo-div{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border-style:  solid;
+    border-width: 1.6px;
+}
+.teampl-logo-img{
+    width: 80px;
+    margin: 17% auto;
+    display: block;
+}
+
+ion-icon.login-menu-icon {
+    font-size: 50px;
+}
+
+.featherIcon-hover{
+    fill: black;
+    color: aliceblue;
+}
+
+.p-float-label{
+    width: 80%;
+    margin: auto;
+}
+.p-inputtext{
+    width: 90%;
+    background: none;
+    border: none;
+    border-bottom: solid 1px #000000;
+    border-radius: 0px;
+    padding: 4px 0px 4px 28px;
+}
+.p-inputtext:enabled:focus{
+    border-radius: 15px;
+}
+
+.social-icon{
+    width: 28px !important; height: 28px !important;
+    margin: 0 1vw !important;
+}
+
+#social-tab{
+    margin-top: 20px
+}
+
+#opPremium{
+    transform: translateX(-8px);
+}
+#opNotification{
+    transform: translateX(-8px);
+}
+
+#button-gift{
+    margin-right: 4px;
+}
+
+#user-icon{
+    transform: translate(20px, 2px);
+    outline-offset: 2px;
+}
+
+#login{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+#login-button{
+    margin: 19px auto;
+    width: 78%;
+    background: #f15a24;
+    border: #f15a24;
+    display: block;
+    font-family: "Proxima Nova";
+    font-Weight: 700;
+    height:40px
+}
+
+#login-flex{
+    width: 85vw;
+    height: 75vh;
+    margin: 12vh auto;
+}
+
+#login-left{
+
+}
+#login-right{
+
+}
+
+#login-left-inner{
+    width: 100%;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(142deg, rgba(255,255,255,0.95) 0%, rgba(244,244,244,0.95) 100%);
+    border-radius: 15px;
+    padding: 15px;
+}
+#login-right-inner{
+    width: 100%;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(142deg, rgba(255,255,255,0.95) 0%, rgba(244,244,244,0.95) 100%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#login-left-navbar{
+    width: 100%;
+    height: 40px;
+}
+
+#login-right-navbar{
+    width: 100%;
+    height: 40px;
+}
+
+#login-username{
+    margin-top: 8vh;
+}
+
+#user-login-input{
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 700;
+}
+#user-login-input:placeholder-shown{
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(0,0,0,0.4);
+}
+
+#teampl-logo-text{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+    font-family: 'Proxima Nova', Serif;
+    font-weight: 100;
+}
+
+#teampl-logo-div{
+    margin-bottom: 11vh;
+}
+
+.p-dialog .p-dialog-header{
+    border-radius: 20px 20px 0 0;
+    padding-bottom: 10px;
+}
+
+.p-dialog .p-dialog-content{
+    padding-bottom: 0;
+}
+
+.p-dialog .p-dialog-footer{
+    border-radius: 0 0 20px 20px;
+}
+
+.datascroller-demo{
+    height: 30vh;
+}

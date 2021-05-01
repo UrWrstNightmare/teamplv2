@@ -1,0 +1,61 @@
+#preload-div{
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: block;
+    position: absolute;
+    z-index: 999;
+}
+
+#preload-logo{
+    position: relative;
+    width: 230px;
+    top: 50%;
+    transform: translateY(-150%);
+}
+
+#preload-progress-spinner {
+    width: 25px; height: 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-200%);
+    display: block;
+}
+
+.p-progressbar{
+    width: 175px;
+    height: 3px;
+    margin: auto;
+    top: 42vh;
+}
+
+.p-progressbar .p-progressbar-value {
+    background: #f5af19;
+}
+
+#preload-text {
+    width: 200px;
+    text-align: center;
+    margin: 75vh auto auto;
+    font-family: Proxima Nova;
+    font-weight: 100;
+    font-size: 16px;
+    color: rgba(255,255,255,0.9);
+}
+
+@keyframes p-progress-spinner-color {
+    100%,
+    0% {
+        stroke: #ffffff;
+    }
+    40% {
+        stroke: #ffffff;
+    }
+    66% {
+        stroke: #ffffff;
+    }
+    80%,
+    90% {
+        stroke: #ffffff;
+    }
+}

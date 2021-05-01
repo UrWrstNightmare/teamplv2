@@ -1,0 +1,90 @@
+.card{
+    border-radius: 25px;
+    padding: 0 5px;
+    /*background-color: #d9e4f5;
+    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);*/
+    background-color: #FFFFFF;
+}
+
+.p-datascroller .p-datascroller-header {
+    font-weight: bold;
+    text-align: left;
+    padding: .5em .75em;
+    border-bottom: 0 none;
+    background: rgba(0,0,0,0);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.alert-icon {
+
+}
+
+.p-datascroller-header {
+    font-size: 18px;
+}
+
+.p-datascroller .p-datascroller-content{
+    padding-top: 0;
+    background: rgba(0,0,0,0);
+    border-radius: 0 0 30px 30px;
+
+}
+
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend a{
+    padding: 15px 1rem;
+    border-radius: 30px;
+    float: left
+}
+
+.p-fieldset-content > p {
+    margin: 0 15px;
+}
+
+.p-fieldset-legend .p-unselectable-text {
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.p-ink{
+
+}
+
+.p-fieldset{
+    background-color: rgba(0,0,0,0.1);
+    margin: 5px 0;
+    border-radius: 30px;
+    padding: 0;
+}
+
+.p-datascroller.p-datascroller-inline .p-datascroller-list > li{
+    border: none;
+}
+
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend{
+    width: 100%;
+    transform: translate(0, 12px);
+    background-color: rgba(255,255,255,1);
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    padding: 1px 30px;
+    background: rgba(0,0,0,0);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0);
+}

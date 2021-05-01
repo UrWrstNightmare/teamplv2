@@ -1,0 +1,10 @@
+{
+  "demoData6": [
+    {"name":  "Jiho", "rank": "Premium"},
+    {"name":  "Jisun", "rank": "Premium"},
+    {"name":  "Taehun", "rank": "Normal"},
+    {"name":  "Taegyun", "rank": "Premium"},
+    {"name":  "Alex", "rank": "Premium"},
+    {"name":  "Alexander", "rank": "Ultimate"}
+  ]
+}

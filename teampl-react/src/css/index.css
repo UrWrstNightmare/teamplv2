@@ -1,0 +1,226 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap'); /* Font Face */
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Regular.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/Proxima Nova Thin.otf');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/Proxima Nova Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/Proxima Nova Extrabold.otf');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/Proxima Nova Black.otf');
+  font-weight: normal;
+  font-style: black;
+}
+/* Noto Sans (2017.02.18) */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: thin;
+  font-weight: 100;
+  src: local('Noto Sans Thin'), local('NotoSans-Thin'),
+  url("../fonts/Noto Sans/woff/NotoSansKR-Thin-Hestia.woff") format('woff'),
+  url("../fonts/Noto Sans/otf/NotoSansKR-Thin-Hestia.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: light;
+  font-weight: 300;
+  src: local('Noto Sans Light'), local('NotoSans-Light'),
+  url("../fonts/Noto Sans/woff/NotoSansKR-Light-Hestia.woff") format('woff'),
+  url("../fonts/Noto Sans/otf/NotoSansKR-Light-Hestia.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: demilight;
+  font-weight: 350;
+  src: local('Noto Sans DemiLight'), local('NotoSans-DemiLight'),
+  url("../fonts/Noto Sans/woff/NotoSansKR-DemiLight-Hestia.woff") format('woff'),
+  url("../fonts/Noto Sans/otf/NotoSansKR-DemiLight-Hestia.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: regular;
+  font-weight: 400;
+  src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+  url("../fonts/Noto Sans/woff/NotoSansKR-Regular-Hestia.woff") format('woff'),
+  url("../fonts/Noto Sans/otf/NotoSansKR-Regular-Hestia.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: medium;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+  url("../fonts/Noto Sans/woff/NotoSansKR-Medium-Hestia.woff") format('woff'),
+  url("../fonts/Noto Sans/otf/NotoSansKR-Medium-Hestia.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+  url("../fonts/Noto Sans/woff/NotoSansKR-Bold-Hestia.woff") format('woff'),
+  url("../fonts/Noto Sans/otf/NotoSansKR-Bold-Hestia.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: black;
+  font-weight: 900;
+  src: local('Noto Sans Black'), local('NotoSans-Black'),
+  url("../fonts/Noto Sans/woff/NotoSansKR-Black-Hestia.woff") format('woff'),
+  url("../fonts/Noto Sans/otf/NotoSansKR-Black-Hestia.otf") format('opentype');
+}
+
+
+/** Bold */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 700;
+  src: url("../fonts/SF/otf/SF-UI-Display-Bold.otf");
+}
+@font-face {
+  font-family: "SF Display";
+  font-weight: 200;
+  src: url("../fonts/SF/otf/SF-UI-Display-Light.otf");
+}
+@font-face {
+  font-family: "SF Display";
+  font-weight: 500;
+  src: url("../fonts/SF/otf/SF-UI-Display-Medium.otf");
+}
+@font-face {
+  font-family: "SF Display";
+  font-weight: 400;
+  src: url("../fonts/SF/otf/SF-UI-Display-Regular.otf");
+}
+@font-face {
+  font-family: "SF Display";
+  font-weight: 600;
+  src: url("../fonts/SF/otf/SF-UI-Display-Semibold.otf");
+}
+@font-face {
+  font-family: "SF Display";
+  font-weight: 300;
+  src: url("../fonts/SF/otf/SF-UI-Display-Thin.otf");
+}
+
+@font-face {
+  font-family: "Aileron";
+  font-weight: 300;
+  src: url("../fonts/Aileron-Light.otf");
+}@font-face {
+  font-family: "Aileron";
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/Aileron-LightItalic.otf");
+}@font-face {
+  font-family: "Aileron";
+  font-weight: 500;
+  src: url("../fonts/Aileron-Regular.otf");
+}@font-face {
+  font-family: "Aileron";
+  font-weight: 500;
+  font-style: italic;
+  src: url("../fonts/Aileron-Italic.otf");
+}@font-face {
+  font-family: "Aileron";
+  font-weight: 700;
+  src: url("../fonts/Aileron-Bold.otf");
+}@font-face {
+  font-family: "Aileron";
+  font-weight: 700;
+  font-style: italic;
+  src: url("../fonts/Aileron-BoldItalic.otf");
+}@font-face {
+  font-family: "Aileron";
+  font-weight: 900;
+  src: url("../fonts/Aileron-Black.otf");
+}@font-face {
+  font-family: "Aileron";
+  font-weight: 900;
+  font-style: italic;
+  src: url("../fonts/Aileron-BlackItalic.otf");
+}
+
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v14/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcel5euIg.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons Round';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialiconsround/v14/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmPq_HTTw.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialiconssharp/v15/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvRImcycg.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons Two Tone';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialiconstwotone/v13/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu0NjbrHg.woff2) format('woff2');
+}
+
+#root{
+  background: linear-gradient(142deg, rgba(247,32,95, 0.9) 0%, rgba(241,90,36,0.7) 84%);
+  overflow: scroll;
+}
+
+/* Basics */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background: linear-gradient(142deg, rgba(247,32,95, 0.9) 0%, rgba(241,90,36,0.7) 84%);*/
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
